@@ -1,0 +1,40 @@
+(Question)
+You will be given four digits, each from 0–9.
+Your task is to combine them into a single 4-digit number in the same order and multiply it by 5 to get the final number.
+
+Important Instructions
+
+Do NOT write the entire logic in main().
+Create a function int buildNumber(int a, int b, int c, int d) and call it from main().
+Input Format
+
+Four digits: {A} {B} {C} {D}
+
+Constraints
+
+0 ≤ each digit ≤ 9
+Output Format
+
+Single line printing the result as: The number is: {(ABCD)*5}
+
+Sample Input 0
+
+(solution):-
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+void night(){
+    int a,b,c,d;
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    printf("The number is: %d",(a*1000 + b*100 + c*10 + d)*5);
+    return;
+}
+
+int main() {
+    night();
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
