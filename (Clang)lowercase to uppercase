@@ -1,9 +1,9 @@
-(QUE)
+(QUE) :
 Write a C program that takes a single lowercase English letter as input and prints its corresponding uppercase letter.
 
 Use the ASCII value method to perform the conversion.
 
-Input Format
+Input Format :
 
 A single lowercase character charLower.
 
@@ -13,7 +13,7 @@ Input must be a lowercase English alphabet ('a' to 'z').
 Do not use built-in string or character functions like toupper() or strupr().
 Conversion must be done using ASCII value arithmetic.
 
-(solution)
+(solution) :
 
 #include <stdio.h>
 #include <string.h>
