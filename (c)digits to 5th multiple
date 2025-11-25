@@ -1,4 +1,4 @@
-(Question)
+(Question) :
 You will be given four digits, each from 0–9.
 Your task is to combine them into a single 4-digit number in the same order and multiply it by 5 to get the final number.
 
@@ -19,7 +19,7 @@ Single line printing the result as: The number is: {(ABCD)*5}
 
 Sample Input 0
 
-(solution):-
+(solution):
 
 #include <stdio.h>
 #include <string.h>
